@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dodavanje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h2>Dodaj kraticu</h2>
+
+  <input id="short" placeholder="Kratica">
+  <input id="full" placeholder="Puni tekst">
+  <button onclick="addAbbreviation()">Dodaj</button>
+
+  <h3>Moje kratice</h3>
+  <div id="list"></div>
+
+  <button onclick="goBack()">Nazad</button>
+
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
